@@ -17,13 +17,13 @@ It is designed to implement write and retrieve data in development environments 
 * Wait for the message "If you are reading this text, it is because the installation was successful!",
 * If it appears your API is set up and ready to use.
 
-To save data use the url below replacing "suakey" with the data key and "seuvalue" by the value of the given.
-http://yourhost.com/setdata.php?key=suakey&value=seuvalue 
-the system will return the url http://sketchwaresql.esy.es/saved.php?suakey-seuvalue if the data is saved correctly.
+To save data use the url below replacing "yourkey" with the data key and "yourvalue" by the value of the given.
+http://yourhost.com/setdata.php?key=yourkey&value=yourvalue 
+the system will return the url http://yourhost.com/saved.php?yourkey-yourvalue if the data is saved correctly.
 
 To retrieve saved data, use the url below replacing "suakeysalva" with the given key.
-http://yourhost.com/getdata.php?key=suakeysalva 
-the system will return to url http://yourhost.com/result.php?result=seuvaluesalvo, if the data is saved correctly in "seuvalue". 
+http://yourhost.com/getdata.php?key=yourkeysaved
+the system will return to url http://yourhost.com/result.php?result=yourkeysalva-yourvaluesaved, if the data is saved correctly in "seuvalue". 
 
 Português
 
@@ -44,6 +44,6 @@ o sistema vai retornar a url http://yourhost.com/saved.php?suakey-seuvalue se o 
 
 Para recuperar dados salvos use a url abaixo substituindo "suakeysalva" pela chave do dado.
 http://yourhost.com/getdata.php?key=suakeysalva 
-o sistema vai retornar a url http://yourhost.com/result.php?result=seuvaluesalvo, se o dado for salvo corretamente em "seuvaluesalvo".
+o sistema vai retornar a url http://yourhost.com/result.php?result=suakeysalva-seuvaluesalvo, se o dado for salvo corretamente em "seuvaluesalvo".
 
 
