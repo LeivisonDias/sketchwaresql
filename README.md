@@ -18,12 +18,12 @@ It is designed to implement write and retrieve data in development environments 
 * If it appears your API is set up and ready to use.
 
 To save data use the url below replacing "suakey" with the data key and "seuvalue" by the value of the given.
-http://sketchwaresql.esy.es/setdata.php?key=suakey&value=seuvalue 
+http://yourhost.com/setdata.php?key=suakey&value=seuvalue 
 the system will return the url http://sketchwaresql.esy.es/saved.php?suakey-seuvalue if the data is saved correctly.
 
 To retrieve saved data, use the url below replacing "suakeysalva" with the given key.
-http://sketchwaresql.esy.es/getdata.php?key=suakeysalva 
-the system will return to url http://sketchwaresql.esy.es/result.php?result=seuvaluesalvo, if the data is saved correctly in "seuvalue". 
+http://yourhost.com/getdata.php?key=suakeysalva 
+the system will return to url http://yourhost.com/result.php?result=seuvaluesalvo, if the data is saved correctly in "seuvalue". 
 
 Português
 
@@ -39,11 +39,11 @@ Foi desenvolvido para implementar a gravação e a recuperação de dados em amb
 * se ela aparecer sua API esta configurada e pronta para usar.
 
 Para salvar dados use a url abaixo substituindo "suakey" pela chave do dado e "seuvalue" pelo valor do dado.
-http://sketchwaresql.esy.es/setdata.php?key=suakey&value=seuvalue 
-o sistema vai retornar a url http://sketchwaresql.esy.es/saved.php?suakey-seuvalue se o dado for salvo corretamente.
+http://yourhost.com/setdata.php?key=suakey&value=seuvalue 
+o sistema vai retornar a url http://yourhost.com/saved.php?suakey-seuvalue se o dado for salvo corretamente.
 
 Para recuperar dados salvos use a url abaixo substituindo "suakeysalva" pela chave do dado.
-http://sketchwaresql.esy.es/getdata.php?key=suakeysalva 
-o sistema vai retornar a url http://sketchwaresql.esy.es/result.php?result=seuvaluesalvo, se o dado for salvo corretamente em "seuvaluesalvo".
+http://yourhost.com/getdata.php?key=suakeysalva 
+o sistema vai retornar a url http://yourhost.com/result.php?result=seuvaluesalvo, se o dado for salvo corretamente em "seuvaluesalvo".
 
 
