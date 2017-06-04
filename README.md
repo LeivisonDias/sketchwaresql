@@ -39,11 +39,11 @@ Foi desenvolvido para implementar a gravação e a recuperação de dados em amb
 * se ela aparecer sua API esta configurada e pronta para usar.
 
 Para salvar dados use a url abaixo substituindo "suakey" pela chave do dado e "seuvalue" pelo valor do dado.
-http://yourhost.com/setdata.php?key=suakey&value=seuvalue 
-o sistema vai retornar a url http://yourhost.com/saved.php?suakey-seuvalue se o dado for salvo corretamente.
+http://suahospedagem.com/setdata.php?key=suakey&value=seuvalue 
+o sistema vai retornar a url http://suahospedagem.com/saved.php?suakey-seuvalue se o dado for salvo corretamente.
 
 Para recuperar dados salvos use a url abaixo substituindo "suakeysalva" pela chave do dado.
-http://yourhost.com/getdata.php?key=suakeysalva 
-o sistema vai retornar a url http://yourhost.com/result.php?result=suakeysalva-seuvaluesalvo, se o dado for salvo corretamente em "seuvaluesalvo".
+http://suahospedagem.com/getdata.php?key=suakeysalva 
+o sistema vai retornar a url http://suahospedagem.com/result.php?result=suakeysalva-seuvaluesalvo, se o dado for salvo corretamente em "seuvaluesalvo".
 
 
