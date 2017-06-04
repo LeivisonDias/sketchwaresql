@@ -23,7 +23,7 @@ the system will return the url http://yourhost.com/saved.php?yourkey-yourvalue i
 
 To retrieve saved data, use the url below replacing "suakeysalva" with the given key.
 http://yourhost.com/getdata.php?key=yourkeysaved
-the system will return to url http://yourhost.com/result.php?result=yourkeysalva-yourvaluesaved, if the data is saved correctly in "seuvalue". 
+the system will return to url http://yourhost.com/result.php?result=yourkeysaved-yourvaluesaved, if the data is saved correctly in "yourvalue". 
 
 Português
 
