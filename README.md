@@ -1,8 +1,8 @@
 # SketchwareSQL
 API Sketchware SQL
 
-Text available in Portuguese and English
-Texto disponível em português e inglês
+Text available in Portuguese and English.
+Texto disponível em português e inglês.
 
 English
 
