@@ -11,7 +11,8 @@ Created by Leivison Dias with the help of Marcos Vinicius.
 It is an online database API originally developed for Sketchware, but it is for any environment that can process the text contained in a URL.
 It is designed to implement write and retrieve data in development environments that do not have native database connection capability. The API was developed in PHP and SQL, and uses pre-built URLs following specific rules for delivering and retrieving data.
 
-* To install fill the config.php file with the data of your MySQL database,
+* To install download or files here https://github.com/LeivisonDias/sketchwaresql/releases
+* fill the config.php file with the data of your MySQL database,
 * Transfer the files to your host,
 * run the install.php file,
 * Wait for the message "If you are reading this text, it is because the installation was successful!",
@@ -32,7 +33,8 @@ Criado por Leivison Dias com a ajuda de Marcos Vinicius.
 É uma API de banco de dados online desenvolvida originalmente para Sketchware, mas serve para qualquer ambiente que possa processar o texto contido em uma URL. 
 Foi desenvolvido para implementar a gravação e a recuperação de dados em ambientes de desenvolvimento que não possuem capacidade de conexão com banco de dados externo de maneira nativa. A API foi desenvolvida em PHP e SQL, e utiliza URL's pré costruidas seguindo regras especificas para entregar e recuperar os dados.
 
-* Para instalar preencha o arquivo config.php com os dados do seu banco de dados MySQL,
+* Para instalar baixe or aquivos aqui https://github.com/LeivisonDias/sketchwaresql/releases
+* preencha o arquivo config.php com os dados do seu banco de dados MySQL,
 * transfira os arquivos para o seu host,
 * execute o arquivo install.php,
 * aguarde a menssagem "If you are reading this text, it is because the installation was successful!",
@@ -45,5 +47,7 @@ o sistema vai retornar a url http://suahospedagem.com/saved.php?suakey-seuvalue 
 Para recuperar dados salvos use a url abaixo substituindo "suakeysalva" pela chave do dado.
 http://suahospedagem.com/getdata.php?key=suakeysalva 
 o sistema vai retornar a url http://suahospedagem.com/result.php?result=suakeysalva-seuvaluesalvo, se o dado for salvo corretamente em "seuvaluesalvo".
+
+Video com a explicação do codigo para sketchware https://youtu.be/h6xAcghvWF4
 
 
